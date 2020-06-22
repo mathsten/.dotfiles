@@ -27,10 +27,9 @@ source $ZSH/oh-my-zsh.sh
 
 bindkey 'jk' vi-cmd-mode
 
+# use the vi navigation keys in menu completion
 zstyle ':completion:*' menu select
 zmodload zsh/complist
-#...
-# use the vi navigation keys in menu completion
 bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
 bindkey -M menuselect 'l' vi-forward-char
@@ -67,6 +66,10 @@ unset __conda_setup
 
 alias dotfiles='/usr/bin/git --git-dir=/home/mathias/.dotfiles/ --work-tree=/home/mathias'
 
+alias ca='conda activate'
+alias cde='conda deactivate'
+alias cl='conda env list'
+
 # ROS
 alias eb='nano ~/.bashrc'
 alias sb='source ~/.bashrc'
@@ -83,7 +86,21 @@ export EDITOR=vim
 export RANGER_LOAD_DEFAULT=FALSE
 VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR
 alias vless="/usr/share/vim/vim80/macros/less.sh"
-#export PAGER=more
+
+
+zet () {
+    cmd="ZetNew $1"
+    vim -c $cmd
+}
+
+#open () {
+    #eval "open $1" || eval "eog $1"
+#}
+
+
+export PYTHONPATH=$PYTHONPATH:/home/mathias/epigram/tensorflow/models/research:/home/mathias/epigram/tensorflow/models/research/slim
+stty -ixon
+#export PAGER="/usr/share/vim/vim80/macros/less.sh"
 . /usr/share/autojump/autojump.sh
 FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
 

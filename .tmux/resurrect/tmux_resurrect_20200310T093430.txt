@@ -1,0 +1,42 @@
+pane	0	1	:~	1	:*	1	:/home/mathias	1	zsh	:
+pane	5	1	:~	1	:*	1	:/home/mathias	1	zsh	:
+pane	7	1	:fg	1	:*	1	:/home/mathias/drive/Skole/UiO/Masteroppgave/code/exp	0	zsh	:
+pane	7	1	:fg	1	:*	2	:/home/mathias/drive/Skole/UiO/Masteroppgave/code/exp	1	python	:python steady_state.py
+pane	lecture	1	:vim	1	:*	1	:/home/mathias/projects/lecture_compressor	0	vim	:vim process_video.py
+pane	lecture	1	:vim	1	:*	2	:/home/mathias/projects/lecture_compressor	1	zsh	:
+pane	lecture	2	:vim	0	:-	1	:/home/mathias/projects/lecture_compressor	1	vim	:vim main.py
+pane	master	1	:..roppgave/tex2	1	:*	1	:/home/mathias/drive/Skole/UiO/Masteroppgave/tex2	1	zsh	:
+pane	master	2	:vim	0	:-	1	:/home/mathias/drive/Skole/UiO/Masteroppgave/code/graph	1	vim	:vim exp_1_vary_radius.py
+pane	master	2	:vim	0	:-	2	:/home/mathias/drive/Skole/UiO/Masteroppgave/veiledning	0	zsh	:
+pane	master	2	:vim	0	:-	3	:/home/mathias/drive/Skole/UiO/Masteroppgave/veiledning	0	zsh	:
+pane	master	3	:vim	0	:	1	:/home/mathias/drive/Skole/UiO/Masteroppgave/code/graph	1	vim	:vim exp_1_vary_radius.py
+pane	master	4	:vim	0	:	1	:/home/mathias/drive/Skole/UiO/Masteroppgave/code/sim	1	vim	:vim main.py
+pane	master	5	:vim	0	:	1	:/home/mathias/drive/Skole/UiO/Masteroppgave/code/beeclust	1	vim	:vim main.py
+pane	master	6	:vim	0	:	1	:/home/mathias/drive/Skole/UiO/Masteroppgave/code/distance_speed_test	1	vim	:vim speed_comparison.py
+pane	pdf	1	:vim	1	:*	1	:/home/mathias/drive/Prosjekter/pdf_splitter	1	vim	:vim split_pdf.py
+pane	pdf	1	:vim	1	:*	2	:/home/mathias/drive/Prosjekter/pdf_splitter	0	zsh	:
+pane	pdf	1	:vim	1	:*	3	:/home/mathias/Downloads	0	zsh	:
+pane	turtle	1	:..bb/UiO/turtle	0	:	1	:/home/mathias/drive/Jobb/UiO/turtle	1	zsh	:
+pane	turtle	1	:..bb/UiO/turtle	0	:	2	:/home/mathias/drive/Jobb/UiO/turtle	0	zsh	:
+pane	turtle	2	:~	1	:*	1	:/home/mathias	1	zsh	:
+pane	turtle	2	:~	1	:*	2	:/home/mathias	0	zsh	:
+pane	turtle	2	:~	1	:*	3	:/home/mathias	0	zsh	:
+pane	turtle	2	:~	1	:*	4	:/home/mathias	0	zsh	:
+pane	turtle	3	:vim	0	:-	1	:/home/mathias/catkin_ws	1	zsh	:
+pane	turtle	3	:vim	0	:-	2	:/home/mathias/tek4030_turtlebot3_2/src	0	vim	:vim sample.cpp
+window	0	1	1	:*	c75e,67x57,0,0,1
+window	5	1	1	:*	c75f,67x57,0,0,2
+window	7	1	1	:*	b0fe,67x57,0,0[67x28,0,0,26,67x28,0,29,27]
+window	lecture	1	1	:*	c722,67x57,0,0{61x57,0,0,3,5x57,62,0,4}
+window	lecture	2	0	:-	c762,67x57,0,0,5
+window	master	1	1	:*	c763,67x57,0,0,6
+window	master	2	0	:-	a804,67x57,0,0{47x57,0,0,7,19x57,48,0[19x30,48,0,8,19x26,48,31,9]}
+window	master	3	0	:	63df,67x57,0,0,10
+window	master	4	0	:	63e0,67x57,0,0,11
+window	master	5	0	:	63e1,67x57,0,0,12
+window	master	6	0	:	63e2,67x57,0,0,13
+window	pdf	1	1	:*	3e99,67x57,0,0{64x57,0,0,14,2x57,65,0[2x29,65,0,15,2x27,65,30,16]}
+window	turtle	1	0	:	5a47,67x57,0,0{33x57,0,0,17,33x57,34,0,18}
+window	turtle	2	1	:*	db07,67x57,0,0[67x29,0,0{32x29,0,0,19,34x29,33,0,20},67x27,0,30{32x27,0,30,21,34x27,33,30,22}]
+window	turtle	3	0	:-	9a3e,67x57,0,0{33x57,0,0,23,33x57,34,0,24}
+state	7	
